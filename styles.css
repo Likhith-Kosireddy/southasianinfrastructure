@@ -9,7 +9,6 @@ header {
   color: #fff;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -36,17 +35,18 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
-  position: fixed;
   width: 100%;
   bottom: 0;
 }
 
 .hero {
-  background-image: url('background.jpg');
+  background: linear-gradient(rgba(255, 255, 255, 0.147), rgba(255, 255, 255, 0.151)),  url('https://github.com/Likhith-Kosireddy/southasianinfrastructure/blob/main/project%20imgs/analog-landscape-city-with-buildings.jpg?raw=true');
   background-size: cover;
   color: black;
-  text-align: center;
+  text-align: right;
   padding: 100px 0;
+  border-radius: 10px;
+  
 }
 
 .listings {
@@ -60,4 +60,10 @@ footer {
 .listings ul li {
   margin-bottom: 10px;
 }
+.mainicon{
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
+
 
